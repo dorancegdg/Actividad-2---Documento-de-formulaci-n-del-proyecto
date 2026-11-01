@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Control de Acceso · Prototipo</title>
+<link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+<header class="cabecera">
+  <div class="marca">
+    <strong>Control de Acceso</strong>
+    <span>Prototipo funcional · datos ficticios</span>
+  </div>
+  <div class="cab-acciones">
+    <button type="button" id="btn-conexion" data-accion="conexion" class="chip"></button>
+    <label class="cab-usuario">Usuario
+      <select id="sel-usuario"></select>
+    </label>
+  </div>
+</header>
+<div class="cuerpo">
+  <nav id="menu" aria-label="Menú principal"></nav>
+  <main id="contenido"></main>
+</div>
+<div id="avisos" aria-live="polite"></div>
+<div id="modal" hidden></div>
+<div id="impresion"></div>
+<script src="app.js"></script>
+</body>
+</html>
